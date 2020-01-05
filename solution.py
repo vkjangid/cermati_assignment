@@ -50,5 +50,5 @@ for i in range(len(li)):
     li[i].join()    # making the main thread to wait for all the other threads we had started
 
 print(output)
-with open('data.json', 'w') as creating_file:
+with open('solution.json', 'w') as creating_file:
     json.dump(output, creating_file)
